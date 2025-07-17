@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-white-800 font-sans">
+
+
+  <nav class="bg-black text-white p-4 fixed w-full top-0 z-10">
+    <div class="max-w-7xl mx-auto flex justify-between">
+      <div class="text-lg font-bold">MyPortfolio</div>
+      <div class="space-x-4">
+        <a href="#home" class="hover:text-gray-300">Home</a>
+        <a href="#about" class="hover:text-gray-300">About</a>
+        <a href="#projects" class="hover:text-gray-300">Projects</a>
+        <a href="#contact" class="hover:text-gray-300">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <section id="home" class="min-h-screen flex items-center justify-center flex-col pt-20">
+    <img src="C:\Users\aleen\Downloads\purplepic.jpg" alt="Avatar" class="rounded-full w-40 h-40 mb-4" />
+    <h1 class="text-4xl font-bold">Aleena George Sunil</h1>
+    <p class="text-xl text-gray-600">Web designer</p>
+    <p class="italic mt-2">"Code To Ecstasy"</p>
+    <a href="#" class="mt-4 px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">Download Resume</a>
+  </section>
+
+  <section id="about" class="bg-purple-200 py-16 px-6">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold mb-4">About Me</h2>
+      <p class="mb-4">I'm an aspiring engineer with a background in computer science. My interests lie in interactive 
+        websites, apps etc. I get the most satisfaction from solving problems. </p>
+      <p class="mb-4">I love everything from software engineering to data science including web designing.</p>
+      <div class="mb-6">
+        <h3 class="text-xl font-semibold mb-2">Skills</h3>
+        <ul class="grid grid-cols-2 gap-2">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Python</li>
+          <li>C</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-xl font-semibold mb-2">Education & Experience</h3>
+        <ul class="space-y-2">
+          <li class="bg-white p-4 rounded-lg shadow">B.Tech in Computer Science - ongoing </li>
+          <li class="bg-white p-4 rounded-lg shadow">Workshop on Cyber Security and Ethical Hacking (2024)</li>
+          <li class="bg-white p-4 rounded-lg shadow">Workshop on AI and machine learning (2024) </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="py-16 px-6">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-3xl font-bold mb-8">Projects</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white p-4 rounded shadow hover:shadow-lg hover:scale-105 transition">
+          <img src="C:\Users\aleen\Downloads\download (1).jpg" alt="Project 1" class="mb-4 rounded" />
+          <h4 class="text-xl font-semibold">Project One</h4>
+          <p>A website to book tickets for concerts all over the world!</p>
+          <p>It uses SQL database as backend and python as frontend to book seats according to available seats.</p>
+        </div>
+        <div class="bg-white p-4 rounded shadow hover:shadow-lg hover:scale-105 transition">
+          <img src="C:\Users\aleen\Downloads\download.jpg" alt="Project 2" class="mb-4 rounded" />
+          <h4 class="text-xl font-semibold">Project Two</h4>
+          <p>A website to edit pictures!</p>
+          <p>The frontend would handle the UI allowing users to upload images, apply edits etc.The backend 
+            would manage user accounts, store edited images etc</p>
+        </div>
+        <div class="bg-white p-4 rounded shadow hover:shadow-lg hover:scale-105 transition">
+          <img src="C:\Users\aleen\Downloads\pastel lilac wallpapers desktop or tablet.jpg" alt="Project 3" class="mb-4 rounded" />
+          <h4 class="text-xl font-semibold">Project Three</h4>
+          <p>A website to check weather in a particular region!</p>
+          <p>The frontend is html, css, and javascript and backend is python. It also uses weather API</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="bg-purple-200 py-16 px-6">
+    <div class="max-w-3xl mx-auto"></div>
+      <h2 class="text-3xl font-bold mb-6">Contact Me</h2>
+      <form class="space-y-4">
+        <input type="text" placeholder="Name" class="w-full p-3 rounded border border-gray-300" />
+        <input type="email" placeholder="Email" class="w-full p-3 rounded border border-gray-300" />
+        <textarea placeholder="Message" rows="5" class="w-full p-3 rounded border border-gray-300"></textarea>
+        <button type="submit" class="px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">Submit</button>
+      </form>
+    </div>
+  </section>
+</body>
+</html>
